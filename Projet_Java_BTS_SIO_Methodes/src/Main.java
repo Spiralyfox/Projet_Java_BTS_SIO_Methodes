@@ -45,7 +45,7 @@ public class Main {
 
         // v1.afficherDescription();
 
-        v1.appliquerReduction10();
+        v1.appliquerReduction(20);
 
     }
 }

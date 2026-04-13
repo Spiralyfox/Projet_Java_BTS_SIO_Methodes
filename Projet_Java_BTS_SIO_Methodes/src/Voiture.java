@@ -13,8 +13,8 @@ public class Voiture {
         System.out.println("Prix : " + prix + " €");
     }
 
-    public void appliquerReduction10() {
-        prix = prix * 0.90;
+    public void appliquerReduction(double pourcentage) {
+        prix = prix * (100 - pourcentage) / 100;
         afficherDescription();
     }
 
