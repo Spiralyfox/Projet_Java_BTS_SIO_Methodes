@@ -7,10 +7,12 @@ public class Voiture {
     double prix;
 
     public void afficherDescription() {
+        int age;
+        age = calculAge();
         System.out.println("Marque : " + marque);
         System.out.println("Modèle : " + modele);
-        annee = 2026 - annee;
         System.out.println("Année : " + annee);
+        System.out.println("Age : " + age);
         System.out.println("Prix : " + prix + " €");
     }
 
@@ -19,7 +21,9 @@ public class Voiture {
         afficherDescription();
     }
 
-
+    public int calculAge() {
+        return(2026 - annee);
+    }
 
     public Voiture(String marque, String modele, int annee, double prix) {
         this.marque = marque;
