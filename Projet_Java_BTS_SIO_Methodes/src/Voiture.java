@@ -9,6 +9,7 @@ public class Voiture {
     public void afficherDescription() {
         System.out.println("Marque : " + marque);
         System.out.println("Modèle : " + modele);
+        annee = 2026 - annee;
         System.out.println("Année : " + annee);
         System.out.println("Prix : " + prix + " €");
     }
