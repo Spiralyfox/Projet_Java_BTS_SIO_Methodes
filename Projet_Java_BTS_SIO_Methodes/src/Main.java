@@ -34,8 +34,11 @@ public class Main {
 
         // Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
 
-        Pneu p1 = new Pneu(55, 205, 16, "été");
-        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500, p1);
+        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+        System.out.println("Marque : " + v1.marque);
+        System.out.println("Modèle : " + v1.modele);
+        System.out.println("Année : " + v1.annee);
+        System.out.println("Prix : " + v1.prix);
 
     }
 }

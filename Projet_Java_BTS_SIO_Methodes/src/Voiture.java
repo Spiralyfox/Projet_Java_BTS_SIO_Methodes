@@ -5,13 +5,11 @@ public class Voiture {
     int annee;
     String carburant;
     double prix;
-    Pneu pneu;
 
-    public Voiture(String marque, String modele, int annee, double prix, Pneu pneu) {
+    public Voiture(String marque, String modele, int annee, double prix) {
         this.marque = marque;
         this.modele = modele;
         this.annee = annee;
         this.prix = prix;
-        this.pneu = pneu;
     }
 }
