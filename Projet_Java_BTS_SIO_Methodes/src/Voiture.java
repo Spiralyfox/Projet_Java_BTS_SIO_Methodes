@@ -13,6 +13,11 @@ public class Voiture {
         System.out.println("Prix : " + prix + " €");
     }
 
+    public void appliquerReduction10() {
+        prix = prix * 0.90;
+        afficherDescription();
+    }
+
 
 
     public Voiture(String marque, String modele, int annee, double prix) {

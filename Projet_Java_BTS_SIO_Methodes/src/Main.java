@@ -43,7 +43,9 @@ public class Main {
         System.out.println("Prix : " + v1.prix);
          */
 
-        v1.afficherDescription ();
+        // v1.afficherDescription();
+
+        v1.appliquerReduction10();
 
     }
 }
